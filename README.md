@@ -1,1 +1,9 @@
-
+- Hosting
+  - To Host on github pages
+  - make changes to vite.config.js and add path like given here
+  - then make changes to package.json, add homepage attribute
+  - Meanwhile add two more scripts
+    - predeploy
+    - deploy
+  - The build field in vite is dist so we will replace build with dist in our deploy script.
+  - Meanwhile goto settings and add gh-pages branch for deployment
